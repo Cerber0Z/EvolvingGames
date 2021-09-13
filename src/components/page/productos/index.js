@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import { DataContext } from "context/DataProvider";
 import { ProductoItem } from "./ProductoItem";
-
+import Footer from "../footer/footer"
 export const ProductosList = () => {
 	const value = useContext(DataContext)
 	const [productos] = value.productos;
@@ -23,6 +23,7 @@ export const ProductosList = () => {
 							))
 						}					
         </div>
+			<Footer />			
 				</>
     )
 }

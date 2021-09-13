@@ -19,9 +19,7 @@ export const ProductoItem = ({title, image, category, price, id}) => {
             </div>
      
       </Link>
-      <div className="producto__footer">
-     
-      </div>
+      
     </div>
     
   );
