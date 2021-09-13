@@ -40,7 +40,7 @@ export const ProductosDetalles = () => {
                         <h2 className="precio">${detalle.price},00</h2>
                     </div>
                     <button onClick={() => addCarrito(detalle.id)} className="btn-añadir" id="btn-añadir" >Añadir</button> 
-                    <div className="card">
+                    <div className="card card-img">
                     <img className="mask-img" src={detalle.image} alt={detalle.name} ></img>    
                     </div>
                     <div className="card-description">
