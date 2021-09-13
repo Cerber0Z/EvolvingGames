@@ -28,17 +28,17 @@ export const Header = () => {
       <ul className="categories">
                     <div className="categories-div">
                         <li className="icons-category">
-                          <Link to="/productos"><img className="icon-category" src={iconsCategories.playstation} title="PlayStation" alt="PlayStation" /></Link>
+                          <Link to="/playstation"><img className="icon-category" src={iconsCategories.playstation} title="PlayStation" alt="PlayStation" /></Link>
                         </li>
                     </div>
                     <div className="categories-div">
                         <li className="icons-category">
-                            <Link to="/productos"><img className="icon-category" src={iconsCategories.xbox} title="Xbox" alt="Xbox" /></Link>
+                            <Link to="/playstation"><img className="icon-category" src={iconsCategories.xbox} title="Xbox" alt="Xbox" /></Link>
                         </li>
                     </div>
                     <div className="categories-div">
                         <li className="icons-category">
-                            <Link to="/productos"><img className="icon-category" src={iconsCategories.nintendo} title="Nintendo" alt="Nintendo" /></Link>
+                            <Link to="/playstation"><img className="icon-category" src={iconsCategories.nintendo} title="Nintendo" alt="Nintendo" /></Link>
                         </li>
                     </div>
                 </ul>  

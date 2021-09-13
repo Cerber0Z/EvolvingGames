@@ -12,7 +12,7 @@ export const ProductoItem = ({title, image, id}) => {
   return (
     
     <div key={id} className="producto">
-      <Link to={`/producto/${id}`}>
+      <Link to={`/playstation/${id}`}>
      
       <div className="card ">
                 <img className="mask-img" src={image} alt={title} ></img>    

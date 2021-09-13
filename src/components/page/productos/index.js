@@ -10,15 +10,15 @@ export const ProductosList = () => {
 			<h1 className="produ">VIDEOJUEGOS</h1>
         <div className="productos">
             {
-							productos.map(producto =>(
+							productos.map(videogame =>(
 								<ProductoItem 
-									key={producto.id}
-									title={producto.title}
-									image={producto.image}
-									category={producto.category}
-									price={producto.price}
-									id={producto.id}
-									description={producto.description}
+									key={videogame.id}
+									title={videogame.title}
+									image={videogame.image}
+									category={videogame.category}
+									price={videogame.price}
+									id={videogame.id}
+									description={videogame.description}
 								/>
 							))
 						}					
