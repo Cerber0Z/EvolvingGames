@@ -11,11 +11,11 @@ function App() {
   return (
     <DataProvider>
     <div className="App">
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
       <Header />
       <Carrito />
       <Pages />
-      </Router>
+    </Router>
     </div>
     </DataProvider>
   );
