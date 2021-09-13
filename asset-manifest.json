@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/EvolvingGames/static/css/main.415c9b8a.chunk.css",
-    "main.js": "/EvolvingGames/static/js/main.247b8c48.chunk.js",
-    "main.js.map": "/EvolvingGames/static/js/main.247b8c48.chunk.js.map",
+    "main.css": "/EvolvingGames/static/css/main.4bbdc566.chunk.css",
+    "main.js": "/EvolvingGames/static/js/main.62e98d68.chunk.js",
+    "main.js.map": "/EvolvingGames/static/js/main.62e98d68.chunk.js.map",
     "runtime-main.js": "/EvolvingGames/static/js/runtime-main.9a75f182.js",
     "runtime-main.js.map": "/EvolvingGames/static/js/runtime-main.9a75f182.js.map",
-    "static/js/2.55a4e365.chunk.js": "/EvolvingGames/static/js/2.55a4e365.chunk.js",
-    "static/js/2.55a4e365.chunk.js.map": "/EvolvingGames/static/js/2.55a4e365.chunk.js.map",
+    "static/js/2.28c8cefc.chunk.js": "/EvolvingGames/static/js/2.28c8cefc.chunk.js",
+    "static/js/2.28c8cefc.chunk.js.map": "/EvolvingGames/static/js/2.28c8cefc.chunk.js.map",
     "static/js/3.2df40a70.chunk.js": "/EvolvingGames/static/js/3.2df40a70.chunk.js",
     "static/js/3.2df40a70.chunk.js.map": "/EvolvingGames/static/js/3.2df40a70.chunk.js.map",
     "index.html": "/EvolvingGames/index.html",
-    "static/css/main.415c9b8a.chunk.css.map": "/EvolvingGames/static/css/main.415c9b8a.chunk.css.map",
-    "static/js/2.55a4e365.chunk.js.LICENSE.txt": "/EvolvingGames/static/js/2.55a4e365.chunk.js.LICENSE.txt",
+    "static/css/main.4bbdc566.chunk.css.map": "/EvolvingGames/static/css/main.4bbdc566.chunk.css.map",
+    "static/js/2.28c8cefc.chunk.js.LICENSE.txt": "/EvolvingGames/static/js/2.28c8cefc.chunk.js.LICENSE.txt",
     "static/media/comprar.9a04f5c7.png": "/EvolvingGames/static/media/comprar.9a04f5c7.png",
     "static/media/logo-games.4025100a.png": "/EvolvingGames/static/media/logo-games.4025100a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9a75f182.js",
-    "static/js/2.55a4e365.chunk.js",
-    "static/css/main.415c9b8a.chunk.css",
-    "static/js/main.247b8c48.chunk.js"
+    "static/js/2.28c8cefc.chunk.js",
+    "static/css/main.4bbdc566.chunk.css",
+    "static/js/main.62e98d68.chunk.js"
   ]
 }
