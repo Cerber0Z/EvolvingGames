@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/EvolvingGames/static/css/main.0e44905d.chunk.css",
-    "main.js": "/EvolvingGames/static/js/main.6efa984b.chunk.js",
-    "main.js.map": "/EvolvingGames/static/js/main.6efa984b.chunk.js.map",
+    "main.css": "/EvolvingGames/static/css/main.a55d5146.chunk.css",
+    "main.js": "/EvolvingGames/static/js/main.4ed38a81.chunk.js",
+    "main.js.map": "/EvolvingGames/static/js/main.4ed38a81.chunk.js.map",
     "runtime-main.js": "/EvolvingGames/static/js/runtime-main.32392686.js",
     "runtime-main.js.map": "/EvolvingGames/static/js/runtime-main.32392686.js.map",
     "static/js/2.e0eae91b.chunk.js": "/EvolvingGames/static/js/2.e0eae91b.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.ba29e7bd.chunk.js": "/EvolvingGames/static/js/3.ba29e7bd.chunk.js",
     "static/js/3.ba29e7bd.chunk.js.map": "/EvolvingGames/static/js/3.ba29e7bd.chunk.js.map",
     "index.html": "/EvolvingGames/index.html",
-    "static/css/main.0e44905d.chunk.css.map": "/EvolvingGames/static/css/main.0e44905d.chunk.css.map",
+    "static/css/main.a55d5146.chunk.css.map": "/EvolvingGames/static/css/main.a55d5146.chunk.css.map",
     "static/js/2.e0eae91b.chunk.js.LICENSE.txt": "/EvolvingGames/static/js/2.e0eae91b.chunk.js.LICENSE.txt",
     "static/media/comprar.9a04f5c7.png": "/EvolvingGames/static/media/comprar.9a04f5c7.png",
     "static/media/logo-games.4025100a.png": "/EvolvingGames/static/media/logo-games.4025100a.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.32392686.js",
     "static/js/2.e0eae91b.chunk.js",
-    "static/css/main.0e44905d.chunk.css",
-    "static/js/main.6efa984b.chunk.js"
+    "static/css/main.a55d5146.chunk.css",
+    "static/js/main.4ed38a81.chunk.js"
   ]
 }
