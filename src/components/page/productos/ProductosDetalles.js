@@ -48,6 +48,7 @@ export const ProductosDetalles = () => {
                         <h6 className="developers">{detalle.developers}</h6>
                         <h2 className="precio">${detalle.price},00</h2>
                     </div>
+                    <button onClick={() => addCarrito(detalle.id)} className="btn-añadir" id="btn-añadir" >Añadir</button> 
                     <div className="card">
                     <img className="mask-img" src={detalle.image} alt={detalle.name} ></img>    
                     </div>
@@ -55,7 +56,7 @@ export const ProductosDetalles = () => {
                         <h3 className="Description">DESCRIPCIÓN DEL JUEGO</h3>
                         <p className="description-text">{detalle.description}</p> 
                     </div>
-                    <button onClick={() => addCarrito(detalle.id)} className="btn-añadir" id="btn-añadir" >Añadir</button> 
+                    
                 </div>
 
                

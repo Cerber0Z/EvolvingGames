@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Card from "images/img02.jpg";
+import imgcompra from "../images/comprar.png";
 import { DataContext } from "context/DataProvider";
 
 export const Carrito = () => {
@@ -61,10 +61,11 @@ export const Carrito = () => {
 					{
 					carrito.map((producto) => (
             <div className="carrito__item" key={producto.id}>
-              <img src={producto.image} alt={producto.title} />
+              <img className="mask-img" src={producto.image} alt={producto.title} />
               <div>
-                <h3> {producto.title} </h3>
-                <p className="price">${producto.price}</p>
+				
+                <h3> {producto.name} </h3>
+                <p className="precio-carrito">${producto.price}</p>
               </div>
               <div>
 								<box-icon 
@@ -86,7 +87,7 @@ export const Carrito = () => {
               </div>
             </div>
 					))
-				};
+				}
 					
 					</>
 					}
@@ -94,7 +95,7 @@ export const Carrito = () => {
 
         <div className="carrito__footer">
           <h3>Total: ${total}</h3>
-          <button className="btn">Payment</button>
+          <img className="carrito-btn" src={imgcompra}></img>
         </div>
       </div>
     </div>

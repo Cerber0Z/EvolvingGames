@@ -13,11 +13,11 @@ code {
     monospace;
 }
 .App{
-    max-width: 1555px;
+    
     width: 100%;
     min-height: 100vh;
     margin: auto;
-    padding: 0 15px;
+   
     box-sizing: border-box;
 
 }
@@ -39,7 +39,6 @@ code {
 header{
     width: 100%;
     min-height: 100px;
-    max-width:1530px;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -49,7 +48,6 @@ header{
     box-sizing: border-box ;
     background-color: white;
     box-shadow: 0 5px 15px #6969694f;
-    margin-left: -15px;
 }
 a{      
     color: black;
@@ -131,12 +129,13 @@ header ul li a{
     font-size: 2.4rem;
     padding: 10rem 0 0 0;
     color: #fe516c;
+    margin-left: 5%;
 }
 .productos{
     padding: 5rem 5rem;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 0fr));
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     gap: 3rem 1.3rem;
     box-sizing: border-box ;
 } 
@@ -168,24 +167,34 @@ header ul li a{
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 20px !important;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+    margin-top: -13%;
 }
+
+
+
 .banner-img{
     width: 100%;
 }
 
 .title-game {
-    margin-top: 13px;
+    
+    margin-top: -46px;
     color: #5B5B5B;
-    font-size: 30px;
+    font-size: 50px;
     letter-spacing: 0.05em;
     font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    
+
 }
 .developers{
     color: #9B9B9B;
     margin: 23px;
-    margin-left: 39%;
+    margin-left: 37%;
     text-align-last: initial;
+    font-size: 20px;
 }
 .precio{
     font-style: normal;
@@ -223,26 +232,31 @@ header ul li a{
 
 #btn-añadir{
     margin-left: 41%;
-    margin-top: 21%;
-    width: 50%;
+    margin-top: 20%;
+    width: 30%;
+    height: 50px;
     background-color: #ff536e;
     border-color: #ff536e;
     border-radius: 101px;
+    position: absolute;
+    color: aliceblue;
+    font-size: 20px;
 }
 
 
+
 .card-page{
-    width: 85%;
+    width: 40%;
     height: 650px;
     position: absolute !important;
-    margin-left: -9%;
-    margin-top: -15%;
-    background: #ffffff;
-    border: 1px solid #ffffff;
+    margin-left: 5%;
+    margin-top: -20%;
+    background: #ffffffe0;
+    border: 1px solid #e0e0e0;
     box-sizing: border-box;
-
-    border-radius: 80px !important;
+    border-radius: 60px 60px 0px 0px;
     margin-bottom: 15px;
+    padding: 3%;
 }
 
 .Cards{
@@ -365,6 +379,17 @@ margin-top: 4%;
     padding-bottom: 5rem;
     visibility: hidden;
 }
+.precio-carrito{
+   
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        color: #0D87CC;
+        margin-top: -5%;
+        text-align-last: initial;
+    
+}
 .carrito{
     position: fixed;
     top: 50%;
@@ -413,24 +438,34 @@ margin-left: 80%;
 .carrito__item{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr;
-    width: 80%;
-    margin: 2rem auto;
-    box-shadow: 0 1px 10px saddlebrown;
-    border-radius: 5px;
+    width: 70%;
+    margin: 1rem auto;
+    /* box-shadow: 0 0px 3px #ffffff; */
+    border-radius: 20px;
+
 }
 .carrito__item div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 10px;
+
 }
 .carrito__item img{
     width: 10rem;
 }
 .carrito__item h3{
-    margin-top: 1.5rem;
-    font-family: Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
+        
+        font-family: Helvetica, sans-serif;
+        color: #5B5B5B;
+        font-size: 29px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.carrito-btn{
+    width: 20%;
+    margin-top: 3%;
 }
 .carrito__item .price{
     color: #1a202c;
@@ -440,7 +475,7 @@ margin-left: 80%;
     margin-left: -17rem ;
 }
 .carrito__item box-icon{
-    fill:#08a05c;
+    fill:#fe516c;
     width: 40px;
     height: 40px;
     cursor: pointer;
