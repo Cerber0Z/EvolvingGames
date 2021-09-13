@@ -29,7 +29,7 @@ code {
 }
 .inicio h1{
     font-size: 2.5rem;
-    color: #08a05c;
+    color: #fe516c;
 }
 .inicio img{
     width: 100%;
@@ -330,30 +330,8 @@ margin-top: 4%;
     cursor: pointer;
     border-radius: 5px;
 }
-.bottom button{
-    background-color: #3033d3;
-    max-width: 250px;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 1.5rem;
-    color: white;
-    font-weight: 600;
-}
-.bottom div{
-    background-color:#08a05c;
-    display: grid;
-    align-items: center;
-    text-align: center;
-    margin-left: -2rem;
-    border-radius: 5px;
-}
-.bottom div a{
-    color: white;
-    font-weight: 700;
-}
-.bottom div a:hover{
-    color: white;
-}
+
+
 /*-----------------CARRITO -----------*/
 .carritos{
     position: fixed;
@@ -805,6 +783,9 @@ margin-left: 75%;
 
     .produ{
         padding: 1rem 0 0 0;
+    }
+    .inicio{
+        padding-top: 1rem;
     }
 }
 /* 
