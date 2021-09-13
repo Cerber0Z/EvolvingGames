@@ -2,12 +2,13 @@ import React, { useContext } from "react";
 import imgcompra from "../images/comprar.png";
 import { DataContext } from "context/DataProvider";
 
+
 export const Carrito = () => {
   const value = useContext(DataContext);
   const [menu, setMenu] = value.menu;
   const [carrito, setCarrito] = value.carrito;
   const [total] = value.total;
-
+ 
   const tooglefalse = () => {
     setMenu(false);
 	};
@@ -28,7 +29,7 @@ export const Carrito = () => {
 			setCarrito([...carrito])
 		})
 	}
-
+	
 	const removeProducto = id =>{
 		if(window.confirm("¿Quieres suspender el producto?")){
 			carrito.forEach((item, index)=>{
@@ -44,8 +45,8 @@ export const Carrito = () => {
   const show1 = menu ? "carritos show" : "carrito";
 	const show2 = menu ? "carrito show" : "carrito";
 	
-
-
+	
+	
   return (
     <div className={show1}>
       <div className={show2}>
@@ -59,10 +60,12 @@ export const Carrito = () => {
 					
 					carrito.length === 0 ? <h2 style={{textAlign: "center", fontSize: "3rem"}}>Carrito Vacio</h2> :<>
 					{
-					carrito.map((producto) => (
+					carrito.map((producto) => ( 
             <div className="carrito__item" key={producto.id}>
-              <img className="mask-img" src={producto.image} alt={producto.title} />
+              <img className="mask-img" src={producto.image} alt={producto.name} />
+			  
               <div>
+			
 				
                 <h3> {producto.name} </h3>
                 <p className="precio-carrito">${producto.price}</p>
@@ -84,19 +87,28 @@ export const Carrito = () => {
 							className="remove__item"
 							>
                 <box-icon name="trash" />
+			
               </div>
             </div>
+			
 					))
 				}
 					
 					</>
+					
 					}
+				<>
+				
+				</>
+					
         </div>
-
-        <div className="carrito__footer">
-          <h3>Total: ${total}</h3>
-          <img className="carrito-btn" src={imgcompra}></img>
-        </div>
+			<div className="carrito__footer">
+				<hr className="hr-carrito" />
+				<h5>Total: </h5>
+				<h3 className="precio-carrito">${total}</h3>
+				<img className="carrito-btn"  src={imgcompra}></img>
+			</div>
+   
       </div>
     </div>
   );

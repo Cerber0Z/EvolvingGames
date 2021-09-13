@@ -252,7 +252,6 @@ header ul li a{
     margin-left: 5%;
     margin-top: -20%;
     background: #ffffffe0;
-    border: 1px solid #e0e0e0;
     box-sizing: border-box;
     border-radius: 60px 60px 0px 0px;
     margin-bottom: 15px;
@@ -386,9 +385,17 @@ margin-top: 4%;
         font-size: 40px;
         line-height: 50px;
         color: #0D87CC;
-        margin-top: -5%;
         text-align-last: initial;
     
+}
+.hr-carrito{
+    margin-bottom: 25px;
+    text-decoration: none;
+    background-color: #5d5d5d;
+    margin-top: 5%;
+    width: 80%;
+    text-align: center;
+    margin-left: 11%;
 }
 .carrito{
     position: fixed;
@@ -417,6 +424,8 @@ margin-top: 4%;
     transform: translate(-50%, -50%) scale(1.1);
     opacity: 1;
     visibility: visible;
+    height: 640px;
+    overflow-x: hidden;
 }
 .carrito__close box-icon{
     display: inline-block;
