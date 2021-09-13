@@ -9,6 +9,7 @@ export const Carrito = () => {
   const [carrito, setCarrito] = value.carrito;
   const [total] = value.total;
  
+ 
   const tooglefalse = () => {
     setMenu(false);
 	};
@@ -47,6 +48,25 @@ export const Carrito = () => {
 	
 	
 	
+	const res = carrito.map((producto => {	
+		return producto.name	
+	}));
+	const res1 = carrito.map((producto => {	
+		return producto.precio	
+	}));
+	const res2 = carrito.map((producto => {	
+		return producto.cantidad	
+	}));
+	
+	const arrayname = [res];
+	const arrayname1 = [res1];
+	const arrayname2 = [res2];
+	const mensajeW = `https://api.whatsapp.com/send?phone=573052027768&text=Buenas%20quiero%20comprar%20los%20siguientes%20juegos:%20${arrayname}%20Cantidad:${arrayname2}%20Total:${total}`
+	
+	
+
+	
+	
   return (
     <div className={show1}>
       <div className={show2}>
@@ -56,8 +76,6 @@ export const Carrito = () => {
         <h2>Su Carrito</h2>
         <div className="carrito__center">
 					{
-					
-					
 					carrito.length === 0 ? <h2 style={{textAlign: "center", fontSize: "3rem"}}>Carrito Vacio</h2> :<>
 					{
 					carrito.map((producto) => ( 
@@ -68,23 +86,13 @@ export const Carrito = () => {
                 <h3> {producto.name} </h3>
                 <p className="precio-carrito">${producto.price}</p>
               </div>
-              <div>
-								<box-icon 
-									onClick={() => increase(producto.id)} name="up-arrow" 
-									type="solid"
-									/>
-                <p className="cantidad">{producto.cantidad}</p>
-								<box-icon 
-									onClick={() => reduce(producto.id)} 
-									name="down-arrow" 
-									type="solid" 
-									/>
-              </div>
-							<div 
-							onClick={() => removeProducto(producto.id)} 
-							className="remove__item"
-							>
-                <box-icon name="trash" />
+            		<div>
+							<box-icon onClick={() => increase(producto.id)} name="up-arrow" type="solid"/>
+                				<p className="cantidad">{producto.cantidad}</p>
+							<box-icon onClick={() => reduce(producto.id)} name="down-arrow" type="solid"/>
+              		</div>
+							<div onClick={() => removeProducto(producto.id)} className="remove__item">
+                			<box-icon name="trash" />
 			
               </div>
             </div>
@@ -95,16 +103,14 @@ export const Carrito = () => {
 					</>
 					
 					}
-				<>
 				
-				</>
 					
         </div>
 			<div className="carrito__footer">
 				<hr className="hr-carrito" />
 				<h5>Total: </h5>
 				<h3 className="precio-carrito">${total}</h3>
-				<img className="carrito-btn"  src={imgcompra}></img>
+				<a href={mensajeW} target="_blank"><img className="carrito-btn"  src={imgcompra}></img></a>
 			</div>
    
       </div>
