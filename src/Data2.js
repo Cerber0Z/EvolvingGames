@@ -32,7 +32,7 @@ const data = {
     {
         id: 3,
         name: "God of War",
-        developers: "Santa Monica Studio",
+        developers: "Santa Monica",
         image: "https://as01.epimg.net/meristation/imagenes/2020/09/17/game_cover/479791341600340811.jpg",
         banner: "https://scontent.fbog9-1.fna.fbcdn.net/v/t39.30808-6/241788291_4394382803962721_3030555745143859774_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=0debeb&_nc_ohc=2oXMbtEsBSwAX_M4nkP&tn=GFcIcWpL9Ezc8Wu8&_nc_ht=scontent.fbog9-1.fna&oh=e3dc23fa87fc778efea1d721de291515&oe=614314AC",
         description: "God of War (en español Dios de la Guerra) es una serie de videojuegos en 3ª. persona creada por SCE Santa Monica Studio y distribuida por Sony Computer Entertainment. Se basa en las aventuras de un semidiós espartano, Kratos, quien se enfrenta a diversos personajes de la mitología griega y nórdica, tanto héroes (Heracles, Teseo, Perseo, etc.); especies mitológicas (gorgonas, arpías, o minotauros); dioses griegos (Ares, Poseidón, Zeus, entre otros), titanes (como Cronos) y dioses primordiales (como Gaia). Aunque el guerrero espartano acostumbra enemistad con la mayoría de los dioses, recibe ayuda de muchos de ellos en algún momento de cada entrega, en especial de Atenea.",
